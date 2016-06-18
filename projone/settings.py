@@ -20,6 +20,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/dev/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
+# work progress was added from another directory structure, this was the secret key, just in case
+# SECRET_KEY = 'q&8-p4&%#joh=at3_2fc-awvp%q*#113l#i!pqb*j-qm+yu3gh'
 SECRET_KEY = '=4ldls#2p8%$7_j1)$y=5v@s@h5h+-b8)ro)w3qhwem$2roii@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
@@ -89,7 +91,7 @@ DATABASES = {
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Europe/Paris'
 
 USE_I18N = True
 
